@@ -1,0 +1,45 @@
+body {
+    background-color: #edcadd;
+    line-height: 25px;
+}
+div.card   {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #caeded;
+}
+div.head h1 {
+    color: #f7b5f3;
+    text-shadow: 0 4px 8px 0 rgba(242, 102, 102, 0.2);
+    text-align: center;
+    font-size: 36px;
+}
+
+div.head p {
+    line-height: 5px;
+    color: #282691;
+    text-shadow: 0 4px 8px 0 rgba(242, 102, 102, 0.2);
+    text-align: inherit;
+}
+
+div.form .input {
+    color: rgb(218, 146, 146);
+    background-color: #f2ebf1;
+    border-radius: 10px;
+}
+
+div.form .input:hover {
+    background-color: #ad1797;
+    color: white;
+}
+
+div.form .spann {
+    color: #bd4cb6;
+}
